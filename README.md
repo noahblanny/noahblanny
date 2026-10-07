@@ -1,49 +1,91 @@
-Hello, I'm Noah Blanchard
+# Hi, I'm Noah 👋
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Noah%20Blanchard-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/noah-blanchard-12a699304/)
+I'm a fourth-year Cybersecurity Systems student at St. John's University with an interest in cybersecurity, networking, Linux, security operations, and technology.
 
+I've always been curious about computers and how things work. That curiosity eventually turned into an interest in cybersecurity, where I enjoy building things, experimenting with technology, troubleshooting problems, and learning how systems and networks can be monitored and secured.
 
-I am a sophomore studying cybersecurity at St. John's University in Jamaica, Queens. I have always had a deep interest in computers and have always wanted to pursue a career in technology. I enjoy music and music history, particularly jazz, classical, and jazz rap. My interest in music has led me to explore audio encryption and broadening my understanding of cybersecurity in the entertainment industry.
+Outside of cybersecurity, I'm interested in music and music history, particularly jazz, classical music, and jazz rap.
 
-**Objective**
+## What I'm Working On
 
-I’m excited to start my career in cybersecurity and take the first real step into the field. I’m eager to keep learning, grow my skills, and become someone a team can count on, not just for technical knowledge, but for being reliable, curious, and committed to doing great work that helps keep people and data safe.
+I'm currently focused on strengthening my cybersecurity fundamentals while building hands-on projects that give me practical experience with security monitoring, networking, Linux, and automation.
 
+I'm also working toward my CompTIA Security+ certification and continuing to improve my Python, Git/GitHub, and security analysis skills.
 
-**Skills**
+## Skills
 
-Java - Experience writing and debugging code for cybersecurity-related tasks, including basic encryption, data parsing, and automation scripts.
+**Security & Monitoring**
+- Wazuh
+- Suricata
+- Splunk
+- Wireshark
+- tcpdump
+- Nmap
+- Burp Suite
 
-Cryptographic Tools – Familiar with using tools like OpenSSL and GPG for data encryption, decryption, and digital signature verification.
+**Systems & Networking**
+- Linux
+- Windows
+- macOS
+- Proxmox
+- Network analysis
+- Network security
+- Firewall management
 
-Malicious Software Identification – Able to recognize and analyze malware behavior using static and dynamic analysis techniques in sandbox environments.
+**Programming & Development**
+- Python
+- Java
+- C
+- SQL
+- Flask
+- SQLite
+- Git & GitHub
 
-Technology Integration – Skilled at connecting and configuring systems and tools for security testing, logging, and monitoring in lab environments.
+**Security Concepts**
+- SIEM
+- Incident Response
+- Vulnerability Management
+- Network Security
+- Risk Analysis
+- MITRE ATT&CK
+- Access Control
 
-Wireshark – Use Wireshark to capture and analyze network traffic for signs of suspicious activity or misconfigurations.
+## Certifications
 
-tcpdump – Utilize tcpdump for lightweight packet analysis in terminal-based environments to quickly identify anomalies and potential threats.
+- Google Cybersecurity Professional Certificate
+- Core Security Training
+- CompTIA Security+ — In Progress
 
-Kali Linux – Regularly work with Kali Linux for penetration testing, vulnerability scanning, and security auditing using tools like Nmap, Metasploit, and Burp Suite.
+## Projects
 
-Algorithmic Problem Solving – Strong understanding of logic and algorithms used to identify patterns in data, optimize code, and solve security-related coding challenges.
+### 🕷️ Spider-Sense SOC
 
+A home Security Operations Center environment built to give me hands-on experience with security monitoring, detection, and investigation.
 
-Network
+The environment uses Wazuh for centralized security monitoring and Suricata for network-based detection. Wazuh agents across physical and virtual systems provide endpoint telemetry for analysis.
 
-    
-Endpoint
+Through this project, I've gained experience with SIEM administration, endpoint monitoring, network detection, virtualization, dashboards, log analysis, troubleshooting, and security architecture.
 
-  
-SIEM
+### 🕸️ SpiderNet
 
-    
-Certifications
+A Python-based network inventory and monitoring platform built with Flask and SQLite.
 
+SpiderNet discovers devices on my network and tracks information such as IP addresses, MAC addresses, hostnames, device status, and whether devices are known or unknown.
 
+I built the project to improve visibility into the devices communicating on my network while developing my Python, networking, database, and web development skills.
 
-    
-**Projects**
+### 🍯 Cowrie Honeypot
 
-Detection Lab - Set up a small virtual lab environment using Detection Lab to explore how cybersecurity attacks and defenses work in a realistic setting. Deployed Windows and Ubuntu machines and used tools like Wireshark, tcpdump, and Splunk to monitor and analyze network traffic and system logs. Practiced identifying suspicious activity (like port scanning or unusual login behavior) and learned how different tools work together to detect threats.
-SOC Automation Project - Created basic scripts in Python to help automate repetitive tasks a Security Operations Center might perform, such as filtering logs or organizing alerts. Simulated alerts from open-source SIEM tools and experimented with simple automation steps to improve response time. Gained hands-on experience using Kali Linux to test detection setups and understand how attackers might trigger alerts in real-world environments.
+Deployed a Cowrie SSH/Telnet honeypot to observe and analyze authentication attempts against an intentionally exposed system.
+
+The project gives me a controlled environment for studying attacker behavior, authentication activity, logs, and security monitoring.
+
+## Current Goals
+
+- Complete CompTIA Security+
+- Continue developing my GitHub cybersecurity portfolio
+- Improve my Linux and networking skills
+- Gain more experience investigating security alerts and logs
+- Build security automation tools with Python
+- Learn NIST Cybersecurity Framework and MITRE ATT&CK through hands-on projects
+- Develop cloud security fundamentals
