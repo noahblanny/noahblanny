@@ -1,3 +1,13 @@
+<div align="center">
+
+![Noah Blanchard — Spider-Sense cybersecurity portfolio](assets/spider-banner.svg)
+
+**SECURITY+ CERTIFIED** · **SOC / BLUE TEAM** · **PYTHON + LINUX**
+
+[![Spider-Sense SOC](https://img.shields.io/badge/SPIDER--SENSE-SOC-ef3340?style=for-the-badge&labelColor=101b33)](https://github.com/noahblanny/spider-sense-soc) [![GitHub](https://img.shields.io/badge/GITHUB-PROJECTS-244c87?style=for-the-badge&logo=github&labelColor=101b33)](https://github.com/noahblanny?tab=repositories)
+
+</div>
+
 # Noah Blanchard | Cybersecurity & Security Operations
 
 **Cybersecurity Systems B.S. candidate · St. John's University · Expected December 2026**
