@@ -1,91 +1,46 @@
-# Hi, I'm Noah 👋
+# Noah Blanchard | Cybersecurity & Security Operations
 
-I'm a fourth-year Cybersecurity Systems student at St. John's University with an interest in cybersecurity, networking, Linux, security operations, and technology.
+**Cybersecurity Systems B.S. candidate · St. John's University · Expected December 2026**
 
-I've always been curious about computers and how things work. That curiosity eventually turned into an interest in cybersecurity, where I enjoy building things, experimenting with technology, troubleshooting problems, and learning how systems and networks can be monitored and secured.
+CompTIA Security+ certified | Google Cybersecurity Professional Certificate | Building practical experience in security operations, network monitoring, incident investigation, and Linux.
 
-Outside of cybersecurity, I'm interested in music and music history, particularly jazz, classical music, and jazz rap.
+I build and document security labs to understand not only **what triggered an alert**, but also **what evidence supports a finding, what remains unknown, and how monitoring can improve**. My interests include SOC analysis, detection engineering, incident response, and security risk.
 
-## What I'm Working On
+## Featured work
 
-I'm currently focused on strengthening my cybersecurity fundamentals while building hands-on projects that give me practical experience with security monitoring, networking, Linux, and automation.
+| Project | What I built / practiced | Evidence |
+| --- | --- | --- |
+| [Spider-Sense SOC](https://github.com/noahblanny/spider-sense-soc) | Proxmox-hosted Wazuh server, Suricata sensor, endpoint telemetry, dashboards, and investigation workflow | [Architecture](https://github.com/noahblanny/spider-sense-soc/blob/main/architecture/architecture.md) · [Investigation 001](https://github.com/noahblanny/spider-sense-soc/blob/main/investigations/001-listening-port-changes.md) |
+| **SpiderNet network inventory** | Python + SQLite device discovery and inventory of IP, MAC, hostname, and status; developed to improve home-network visibility | [Project summary](projects/spidernet.md) |
+| **Cowrie honeypot** | Deployed an SSH/Telnet honeypot in a controlled lab to study connection and authentication activity | [Project summary](projects/cowrie-honeypot.md) |
+| [Java cryptanalysis](https://github.com/noahblanny/Cryptoanalysis_Programming) | Coursework implementation exploring classical cipher analysis | [Source code](https://github.com/noahblanny/Cryptoanalysis_Programming) |
+| **Network forensics & traffic analysis** | Wireshark/tcpdump packet inspection, protocol analysis, and investigation write-ups | [Project summary](projects/network-forensics.md) |
+| **Firewall and traffic control** | Configured and verified Linux UFW/iptables rules | [Project summary](projects/firewall-traffic-control.md) |
+| **Python traffic simulation** | Simulated traffic, threshold alerts, and anomaly-oriented analysis using Python and Plotly | [Project summary](projects/traffic-simulation.md) |
+| **Active Directory practice lab** | Windows Server/workstation lab for hands-on PNPT learning; setup and exercises ongoing | [Lab status](projects/active-directory-lab.md) |
 
-I'm also working toward my CompTIA Security+ certification and continuing to improve my Python, Git/GitHub, and security analysis skills.
+> **Portfolio note:** Project summaries describe work completed in labs or coursework. A summary is not a claim that source code, sanitized datasets, or reproducible deployments have been published. Where available, source code and investigation artifacts are linked explicitly.
 
-## Skills
+## Technical toolkit
 
-**Security & Monitoring**
-- Wazuh
-- Suricata
-- Splunk
-- Wireshark
-- tcpdump
-- Nmap
-- Burp Suite
+- **Detection & investigation:** Wazuh, Suricata, Splunk, Wireshark, tcpdump, Snort
+- **Systems & networks:** Linux, Windows, macOS, Proxmox, TCP/IP, DNS, DHCP, VLANs, firewalls
+- **Security testing (authorized labs):** Nmap, Burp Suite, Metasploit, Netcat
+- **Programming & data:** Python, Java, SQL, SQLite, Git/GitHub
+- **Security practice:** incident triage, log analysis, network forensics, access control, risk assessment
 
-**Systems & Networking**
-- Linux
-- Windows
-- macOS
-- Proxmox
-- Network analysis
-- Network security
-- Firewall management
+## Experience & learning
 
-**Programming & Development**
-- Python
-- Java
-- C
-- SQL
-- Flask
-- SQLite
-- Git & GitHub
+- **Cybersecurity Intern — Holy Cross High School (Summer 2026):** Windows and Google Workspace support, endpoint troubleshooting, network diagnostics, and risk assessment documentation.
+- **CompTIA Security+ (SY0-701)** — Earned October 2026.
+- **Google Cybersecurity Professional Certificate** — Completed October 2025.
+- **Core Security Training Certificate** — St. John's University, October 2025.
+- **PNPT training** — In progress; practicing enumeration, exploitation in authorized labs, and Active Directory concepts.
 
-**Security Concepts**
-- SIEM
-- Incident Response
-- Vulnerability Management
-- Network Security
-- Risk Analysis
-- MITRE ATT&CK
-- Access Control
+## Currently improving
 
-## Certifications
+- Better alert context and historical process/network telemetry in Spider-Sense
+- More reproducible, sanitized configurations and scripts
+- Structured investigation reports with evidence, limitations, and remediation
 
-- Google Cybersecurity Professional Certificate
-- Core Security Training
-- CompTIA Security+ — In Progress
-
-## Projects
-
-### 🕷️ Spider-Sense SOC
-
-A home Security Operations Center environment built to give me hands-on experience with security monitoring, detection, and investigation.
-
-The environment uses Wazuh for centralized security monitoring and Suricata for network-based detection. Wazuh agents across physical and virtual systems provide endpoint telemetry for analysis.
-
-Through this project, I've gained experience with SIEM administration, endpoint monitoring, network detection, virtualization, dashboards, log analysis, troubleshooting, and security architecture.
-
-### 🕸️ SpiderNet
-
-A Python-based network inventory and monitoring platform built with Flask and SQLite.
-
-SpiderNet discovers devices on my network and tracks information such as IP addresses, MAC addresses, hostnames, device status, and whether devices are known or unknown.
-
-I built the project to improve visibility into the devices communicating on my network while developing my Python, networking, database, and web development skills.
-
-### 🍯 Cowrie Honeypot
-
-Deployed a Cowrie SSH/Telnet honeypot to observe and analyze authentication attempts against an intentionally exposed system.
-
-The project gives me a controlled environment for studying attacker behavior, authentication activity, logs, and security monitoring.
-
-## Current Goals
-
-- Complete CompTIA Security+
-- Continue developing my GitHub cybersecurity portfolio
-- Improve my Linux and networking skills
-- Gain more experience investigating security alerts and logs
-- Build security automation tools with Python
-- Learn NIST Cybersecurity Framework and MITRE ATT&CK through hands-on projects
-- Develop cloud security fundamentals
+**Explore the [Spider-Sense SOC](https://github.com/noahblanny/spider-sense-soc) repository first** for the most complete architecture, screenshots, and investigation evidence in this portfolio.
