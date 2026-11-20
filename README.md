@@ -21,7 +21,7 @@ I build and document security labs to understand not only **what triggered an al
 | Project | What I built / practiced | Evidence |
 | --- | --- | --- |
 | [Spider-Sense SOC](https://github.com/noahblanny/spider-sense-soc) | Proxmox-hosted Wazuh server, Suricata sensor, endpoint telemetry, dashboards, and investigation workflow | [Architecture](https://github.com/noahblanny/spider-sense-soc/blob/main/architecture/architecture.md) · [Investigation 001](https://github.com/noahblanny/spider-sense-soc/blob/main/investigations/001-listening-port-changes.md) |
-| **SpiderNet network inventory** | Python + SQLite device discovery and inventory of IP, MAC, hostname, and status; developed to improve home-network visibility | [Project summary](projects/spidernet.md) |
+| [SpiderNet network inventory](https://github.com/noahblanny/spidernet) | Python + SQLite inventory with Flask dashboard and bounded TCP discovery; MAC addresses are manually recorded in this implementation | [Source code](https://github.com/noahblanny/spidernet) · [Project background](projects/spidernet.md) |
 | **Cowrie honeypot** | Deployed an SSH/Telnet honeypot in a controlled lab to study connection and authentication activity | [Project summary](projects/cowrie-honeypot.md) |
 | [Java cryptanalysis](https://github.com/noahblanny/Cryptoanalysis_Programming) | Coursework implementation exploring classical cipher analysis | [Source code](https://github.com/noahblanny/Cryptoanalysis_Programming) |
 | **Network forensics & traffic analysis** | Wireshark/tcpdump packet inspection, protocol analysis, and investigation write-ups | [Project summary](projects/network-forensics.md) |
